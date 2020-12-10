@@ -1,0 +1,406 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar {
+  color: white;
+  position: relative;
+  background-color: black;
+  margin-top: -8px 0px 0 0px;
+  padding: 8px;
+}
+
+.bar .bar-links {
+  margin-left: 5%;
+}
+
+.bar .bar-links .fa {
+  color: white;
+  padding: 4px;
+}
+
+.bar .bar-links .fa:hover {
+  color: darkorange;
+}
+
+.bar .search {
+  color: white;
+  border: 1px;
+  padding: 3px;
+  background-color: #333;
+  position: absolute;
+  top: 23%;
+  right: 4%;
+}
+
+.bar .fa-search {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  font-size: 11px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav .brand {
+  font-size: 35px;
+}
+
+nav .list {
+  margin: -10px 0 0 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .list .list-item {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0 5px 0 5px;
+  -webkit-transition: 0.5s color;
+  transition: 0.5s color;
+}
+
+nav .list .list-item:hover {
+  color: darkorange;
+  cursor: pointer;
+}
+
+.main-section {
+  position: relative;
+  height: 68vh;
+  width: 90vw;
+  margin: 40px auto 0 auto;
+  color: white;
+  background-color: #272f36;
+}
+
+.main-section .content {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.main-section .content .w1 {
+  font-size: 1.8rem;
+}
+
+.main-section .content .w2 {
+  margin-top: -25px;
+  font-size: 1.8rem;
+}
+
+.main-section .content .w3 {
+  font-size: 17px;
+  font-family: tahoma;
+}
+
+.main-section .content .w4 {
+  font-size: 17px;
+  margin-top: -10px;
+  padding-bottom: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-section .content .w5 {
+  text-transform: uppercase;
+  color: steelblue;
+  font-size: 25px;
+  margin-top: -10px;
+  padding-bottom: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-section .content a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border: 1px darkorange solid;
+  -webkit-transition: 0.8s background-color;
+  transition: 0.8s background-color;
+}
+
+.main-section .content a:hover {
+  background-color: darkorange;
+}
+
+.info {
+  width: 90vw;
+  color: white;
+  background-color: gray;
+}
+
+.info .pic {
+  height: 50vh;
+  background-image: url(../images/guestHouse.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.info-in2 {
+  color: white;
+  width: 90vw;
+  background-color: #333;
+}
+
+.info-in2 .pic2 {
+  height: 40vh;
+  background-image: url(../images/img4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.info-in2 .pic-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info-in2 .pic-con .pic3:nth-child(1) {
+  background-image: url(../images/Bedroom2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 20vw;
+  height: 25vh;
+  margin: 3px;
+  margin-top: 0;
+}
+
+.info-in2 .pic-con .pic3:nth-child(2) {
+  background-image: url(../images/kichen.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 20vw;
+  height: 25vh;
+  margin: 3px;
+  margin-top: 0;
+}
+
+.info-in2 .pic-con .pic4:nth-child(1) {
+  background-image: url(../images/bath.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 20vw;
+  height: 25vh;
+  margin: 3px;
+  margin-top: 0;
+}
+
+.info-in2 .pic-con .pic4:nth-child(2) {
+  background-image: url(../images/tvroom.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 20vw;
+  height: 25vh;
+  margin: 3px;
+  margin-top: 0;
+}
+
+/* start */
+.form-in {
+  overflow: hidden;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  max-width: 100%;
+}
+
+.header {
+  color: white;
+  background-color: royalblue;
+  padding: 5px 10px;
+}
+
+.haeder .h2 {
+  margin: 0;
+}
+
+.form {
+  padding: 30px 40px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.form-control {
+  margin-bottom: 8px;
+  padding-bottom: 13px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px gray solid;
+  border-radius: 4px;
+  display: block;
+  width: 50vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.form-control.success input {
+  border-color: green;
+}
+
+.form-control.error input {
+  border-color: red;
+}
+
+.form-control i {
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+.form-control small {
+  visibility: hidden;
+  position: absolute;
+  /* bottom: 0;
+    left: 0; */
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: red;
+}
+
+.form button {
+  background-color: green;
+  border: 2px green solid;
+  color: white;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* end */
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: whitesmoke;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.price .price-head {
+  font-size: 18px;
+  border-bottom: 1px gray solid;
+  margin: -8px -8px;
+  padding: 8px;
+  width: inherit;
+}
+
+.price .price-list {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 8px 8px 0 8px;
+}
+
+footer {
+  color: white;
+  background-color: darkslategray;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer .l-body {
+  color: whitesmoke;
+}
+
+footer .loc {
+  color: whitesmoke;
+}
+
+footer .contacts {
+  color: whitesmoke;
+}
+
+footer .payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .payment .fa {
+  padding: 5px;
+  font-size: 20px;
+  margin: 5px;
+  -webkit-transition: 0.5s background-color;
+  transition: 0.5s background-color;
+}
+
+footer .payment .fa:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 700px) {
+  .main-section {
+    height: 78vh;
+  }
+  .con {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .price {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .price .price-list {
+    width: 60vw;
+    margin: 10px auto 4px auto;
+  }
+  .form-control input {
+    border: 2px gray solid;
+    border-radius: 4px;
+    display: block;
+    width: 70vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

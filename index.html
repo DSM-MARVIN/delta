@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="./dist/images/delta.png">
+    <title>Delta</title>
+</head>
+<body>
+    <div class="bar">
+        <div class="bar-links">
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-pinterest"></i>
+        <i class="fa fa-bell"></i>
+        </div>
+
+        <input type="search" class="search">
+        <i class="fa fa-search"></i>
+    </div>
+    <nav>
+        <p class="brand"><img class="mb-2" src="./dist/images/delta.png" alt="" srcset="" width="25px"> Delta</p>
+        <ul class="list">
+            <li class="list-item">home</li>
+            <li class="list-item"><a href="#about">About</a></li>
+            <li class="list-item"><a href="#booking">Booking</a></li>
+            <li class="list-item"><a href="#contacts">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-section">
+        <div class="content">
+        <p class="w1">Do you like to travel and expolre</p>
+        <p class="w2">the safari boime of South Africa.</p>
+        <p class="w3">Get the most of your experience with great accomodation</p>
+        <p class="w4">with style at an affordable price that siuts your criteria</p>
+        <p class="w5">Start booking today!</p>
+        <a href="#">Bookings <i class="fa fa-angle-right"></i></a>
+        </div>
+    </main>
+
+    <div class="info row mx-auto" id="about">
+        <div class="pic col-md"></div>
+        <div class="info-in col-md shadow">
+            <p class="head">About us...</p>
+            <div class="side-con">
+            <p class="side">Wild Wings Safaris is a specialist safari operator with offices in the UK (London) and South Africa. We arrange custom safaris to all the top safari destinations  throughout Southern and East Africa, including the Kruger National Park, Sabi Sand Game Reserve, Victoria Falls, Chobe National Park, Okavango Delta, Serengeti, Ngorongoro and more.
+                We also sell Cape Town, the Garden Route, Panorama Route, Mozambique, Zimbabwe, Zambia, Zanzibar and other top travel regions in Southern and East Africa.
+            </p>
+            </div>
+            <a href="#" class="btn btn-dark mb-3">Learn more</a>
+        </div>
+    </div>
+ <div class="info-in2 row mx-auto pt-4">
+        <div class="l-side col-md ">
+            <div class="pic2"></div>
+            <div>
+
+                <div class="w1-con">
+                <p class="head">Special Interests and Needs</p>
+
+                <p class="w1">Accommodation has also been categorised according to specific requirements, 
+                    including wheelchair-, pet-, birder- and family-friendly accommodation, guest 
+                    farms, health resorts, golf lodges, fishing lodges, houseboats, backpackers and camping</p>
+                </div>
+                <a href="#" class="btn btn-primary mb-3">Read</a>
+            </div>
+        </div>
+     <div class="con col-md">
+        <div class="pic-con ">
+            <div class="pic3"></div>
+            <div class="pic3"></div>
+        </div>
+        <div class="pic-con ">
+            <div class="pic4"></div>
+            <div class="pic4"></div>
+        </div>
+    </div>
+ </div>
+
+
+    <div class="price" id="booking">
+        <div class="price-list shadow">
+            <p class="price-head mb-1">Casual R899.99</p>
+            <p class="list-item">2 bedrooms.</p>
+            <p class="list-item">1 bathroom and a kicken</p>
+            <p class="list-item">TV room</p>
+            <p class="list-item">A really nice and wide swimming pool</p>
+        </div>
+        <div class="price-list shadow">
+            <p class="price-head mb-1">Standard R1199.99</p>
+            <p class="list-item">4 bedrooms.</p>
+            <p class="list-item">1 bathroom and a kichen</p>
+            <p class="list-item">TV room</p>
+            <p class="list-item">A really nice and wide swimming pool </p>
+        </div>
+        <div class="price-list shadow">
+            <p class="price-head mb-1">Family-1 R1399.99</p>
+            <p class="list-item">4 bedrooms</p>
+            <p class="list-item">2 bathroom and a kichen</p>
+            <p class="list-item">TV room and a patio</p>
+            <p class="list-item">A very Nice swimming pool and jakuzzi</p>
+        </div>
+        <div class="price-list shadow">
+            <p class="price-head mb-1">Family-2 R1799.99</p>
+            <p class="list-item">5 bedrooms.</p>
+            <p class="list-item">3 bathroom and 2 kichens</p>
+            <p class="list-item">TV room and a patio</p>
+            <p class="list-item">A very Nice swimming pool and jakuzzi</p>
+        </div>
+
+    </div>
+    <form action="" class="form mx-auto" id="form">
+        <div class="form-control">
+            <label>Check in</label>
+            <input type="date" placeholder="Your date" id="checkin" ></input>
+            <i></i>
+            <i></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label>Check out</label>
+            <input type="date" placeholder="Your date" id="checkout" ></input>
+            <i></i>
+            <i></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="">Booking type</label>
+            <select name="Booking-type" id="BT">
+                <option value="casual">Casual</option>
+                <option value="standard">Standard</option>
+                <option value="business">Business</option>
+                <option value="vip">VIP</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>Password</label>
+            <input type="Password" placeholder="Your password" id="password" ></input>
+            <i></i>
+            <i></i>
+            <small>Error message</small>
+        </div>
+
+        <button>Submit</button>
+
+    </form>
+    
+    
+        <footer id="contacts">
+            <div class="l-content">
+        <p class="l-head">To Know?</p>
+
+
+            <p class="l-body">24hr online service</p>
+            <p class="l-body">travel</p>
+            <p class="l-body">accommodation</p>
+            <p class="l-body">more details</p>
+        
+            </div>
+
+            <div class="main-office">
+                <p class="main-head">main office</p>
+                <p class="loc">Mpumalanga</p>
+                <p class="loc">Nelspriut</p>
+                <p class="loc">1034</p>
+                
+                <p class="contact-head">contacts</p>
+                <p class="contacts">011 3546 908</p>
+                <p class="contacts">delta@gmail.com</p>
+            </div>
+
+            <div class="payment">
+                <i class="fa fa-cc-mastercard"></i>
+                <i class="fa fa-cc-paypal"></i>
+                <i class="fa fa-cc-visa"></i>
+                <i class="fa fa-cc-stripe"></i>
+            </div>
+
+
+</footer>
+</body>
+</html>
